@@ -4,6 +4,7 @@
     "config:recommended"
   ],
   "onboarding": false,
+  "platform": "github",
   "repositories": [
     "jimsihk/test-renovate"
   ],
