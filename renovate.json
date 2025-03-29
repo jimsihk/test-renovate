@@ -3,9 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  "onboarding": false,
   "platform": "github",
-  "username": "renovate[bot]",
   "gitAuthor": "renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
   "repositories": [
     "jimsihk/test-renovate"
