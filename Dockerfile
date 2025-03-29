@@ -4,7 +4,7 @@ FROM alpine:3.21.3
 ENV PHP_VERSION="=8.3.19-r0"
 
 # renovate: datasource=repology depName=alpine_3_21/nginx versioning=loose
-ARG NGINX_VERSION="=1.26.0-r0"
+ARG NGINX_VERSION="=1.26.3-r0"
 
 RUN apk --no-cache add \
        php83${PHP_VERSION} \
