@@ -1,3 +1,6 @@
 FROM alpine:3.21.3
 
-RUN apk --no-cache add libssl3
+# renovate: datasource=repology depName=alpine_3_21/php83 versioning=loose
+ENV PHP_VERSION="=8.3.18-r0"
+
+RUN apk --no-cache add php83${PHP_VERSION}
